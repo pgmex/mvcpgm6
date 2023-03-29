@@ -1,0 +1,13 @@
+LIST OF Employees
+<ul class="employees">
+<% for(var i=0;i<employees.length;i++) { %>
+<li class="employees">
+<span><%= "EMPID : "+employees[i].Emp_id %></span>
+<span><%= "NAME : "+employees[i].Name %></span>
+<span><%= "DEPARTMENT : "+employees[i].Department %></span>
+<span><%= "DESIGNATION : "+employees[i].Designation %></span>
+<span><%= "MOBILE NUMBER : "+employees[i].Mobile %></span>
+<span><%= "EMAIL ID : "+employees[i].Email %></span>
+</li>
+<% } %>
+</ul>
